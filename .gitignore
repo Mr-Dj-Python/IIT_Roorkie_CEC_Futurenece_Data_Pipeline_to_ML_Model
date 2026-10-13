@@ -13,3 +13,12 @@ airflow.db
 .astro/*.local.yml
 .astro/*.local.yaml
 test_api.py 
+
+# NammaMart assignment: generated output and anything that can hold personal data. Never commit these.
+include/warehouse_*.duckdb
+include/data/_work_*/
+include/quarantine/dhananjay_vishwakarma/
+.env.*
+!.env.example
+.idea/
+*.swp
